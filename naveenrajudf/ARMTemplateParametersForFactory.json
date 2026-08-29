@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "naveenrajudf"
+		},
+		"ADLS_LS_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"LS_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_SHIR_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "databaseserver.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "azuredata"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "naveensql"
+		},
+		"LS_ADLS_properties_typeProperties_url": {
+			"value": "https://naveendlstorage.dfs.core.windows.net/"
+		},
+		"LS_SHIR_properties_typeProperties_host": {
+			"value": "D:\\ADF"
+		},
+		"LS_SHIR_properties_typeProperties_userId": {
+			"value": "naveenraju"
+		}
+	}
+}
