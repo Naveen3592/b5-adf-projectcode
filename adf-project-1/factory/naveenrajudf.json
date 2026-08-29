@@ -1,0 +1,15 @@
+{
+	"name": "naveenrajudf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b5adec91-d7d5-46eb-95cb-498cfd78db43",
+		"tenantId": "f9b5d68d-d0db-4259-88be-c5a10335a448"
+	}
+}
