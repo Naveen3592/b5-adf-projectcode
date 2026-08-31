@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_end to end",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/salescontainer/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/aa947e67-8cca-4a2b-ae16-22a3b6359d64/resourceGroups/NaveenRG/providers/Microsoft.Storage/storageAccounts/naveendlstorage",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
